@@ -88,17 +88,17 @@ IntelliJ IDEA一次可以选择多个相同代码段。选中代码并按下 **�
 
 ### 导航 {#dao-hang}
 
-#### 最近的文件 {#zui-jin-de-wen-jian}
+#### 最近使用的文件 {#zui-jin-de-wen-jian}
 
 大多数情况下，您使用一组有限的文件集，并需要快速切换它们。这时最快的方式就是通过**⌘E \(Ctrl+E\)** 打开最近文件\(**Recent Files\)**功能。默认情况下，焦点位于上次访问的文件上。请注意，您还可以通过此界面打开任何工具窗口\(**Tool Windows**\)：
 
 ![](.gitbook/assets/refcard_4.png)
 
-导航到类\(**Navigate to Class**\)，按键**⌘N \(Ctrl+N\)** 可以使用复杂的表达式，包括驼峰，路径，定位到行，中间名称匹配等等。如果您按下它两次，它会向您显示项目外\(**Jar**\)中的结果。
+导航到类\(**Navigate to Class**\)，按下**⌘N \(Ctrl+N\)** 可以使用复杂的表达式，包括驼峰，路径，行号，中间名称匹配等等。如果您按下它两次，它会向您显示项目外\(**Jar**\)中的结果。
 
-导航到文件\(**Navigate to File**\)与类导航类似，按键**⇧⌘N \(Ctrl+Shift+N\)**，但用于文件和文件夹。要导航到文件夹，请使用**斜杠**结束表达式 。
+导航到文件\(**Navigate to File**\)与类导航类似，快捷键为**⇧⌘N \(Ctrl+Shift+N\)**，但仅用于文件和文件夹。要导航到文件夹，请使用**斜杠**结束表达式 。
 
-导航到符号\(**Navigate to Symbol**\)， **⌥⇧⌘N \(Ctrl+Shift+Alt+N\)** 允许您按名称查找方法或字段。
+导航到符号\(**Navigate to Symbol**\)， **⌥⇧⌘N \(Ctrl+Shift+Alt+N\)** 允许您按名称查找方法或字段，甚至Spring MVC Mapping路径等等。
 
 #### 文件结构 {#jie-gou-ti}
 
@@ -108,7 +108,7 @@ IntelliJ IDEA一次可以选择多个相同代码段。选中代码并按下 **�
 
 #### 文件选择 {#xuan-ze}
 
-如果您需要在特定工具窗口（或Finder / Explorer）中打开选中的文件，可以通过 **⌥F1 \(Alt+F1\)** 选择\(**Select In**\) 操作来实现：
+如果您需要在特定工具窗口（或Finder / Explorer）中显示选中的文件（比如在资源管理器中、所有文件变更中），可以通过 **⌥F1 \(Alt+F1\)** 选择\(**Select In**\) 操作来实现：
 
 ![](.gitbook/assets/refcard_6.png)
 
@@ -122,17 +122,15 @@ IntelliJ IDEA一次可以选择多个相同代码段。选中代码并按下 **�
 | 导航到符号 | ⌥⇧⌘N \(Ctrl+Shift+Alt+N\) |
 | 最近的文件 | ⌘E \(Ctrl+E\) |
 | 文件结构 | ⌘F12 \(Ctrl+F12\) |
-| 选择 | ⌥F1 \(Alt+F1\) |
+| 文件选择 | ⌥F1 \(Alt+F1\) |
 | 导航到声明 | ⌘B \(Ctrl+B\) |
 | 导航到类型层次结构 | ⌃H \(Ctrl+H\) |
 | 显示UML弹出窗口 | ⌥⌘U \(Ctrl+Alt+U\) |
 
-有关更多详细信息，请参阅 [浏览源代码](https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html)。
-
 ### 快速弹窗 {#kuai-su-dan-chu-chuang-kou}
 
 {% hint style="info" %}
-快速弹窗 可用于编辑器中的代码; 但是它们也可以通过相同的快捷方式用于任何其他列表中的项目。
+快速弹窗 可用于编辑器中的代码; 但是它们也可以通过快捷键用于任何其他列表中的项目。
 {% endhint %}
 
 快速弹窗 有助于查看代码相关的其他信息。以下是您希望提高效率时应该知道的快速弹窗列表：
@@ -140,9 +138,9 @@ IntelliJ IDEA一次可以选择多个相同代码段。选中代码并按下 **�
 | 动作 | 快捷键 \(Mac \| Win/Linux\) |
 | --- | --- | --- | --- | --- |
 | 文档信息 | ⌃J \(Ctrl+Q\) |
-| 查看定义 | ⇧⌘I \(Ctrl+Shift+I\) |
+| 快速预览定义处 | ⇧⌘I \(Ctrl+Shift+I\) |
 | 显示所有引用 | ⌥⌘F7 \(Ctrl+Alt+F7\) |
-| 显示实现 | ⌥⌘B \(Ctrl+Alt+B\) |
+| 显示实现类 | ⌥⌘B \(Ctrl+Alt+B\) |
 
 ### 重构基础知识 {#zhong-gou-ji-chu-zhi-shi}
 
