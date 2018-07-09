@@ -8,8 +8,6 @@
 
 {% hint style="info" %}
 如果您不知道某个操作的快捷键，请尝试使用查找操作功能 **⇧⌘A \(Ctrl+Shift+A\)**。输入名称查看其快捷键或直接调用。
-
-![](.gitbook/assets/c4d6e01d-4bb1-43b7-bcfd-989406a03c07.png)
 {% endhint %}
 
 IntelliJ IDEA 代码编辑器有许多特别之处，最值得注意的是，您可以在不离开它的情况下调用几乎所有的IDE特性，这使得您可以组织布局，隐藏诸如工具栏和窗口等辅助控件，使其拥有更多的屏幕空间。
@@ -173,7 +171,7 @@ IntelliJ IDEA提供了一套全面的自动代码重构功能，可在正确使�
 
 **Find Usages** 可帮助您快速查找引用了光标上符号的所有代码片段，无论符号是类，方法，字段，参数还是其他语句。只需按下 **⌥F7 \(Alt+F7\)** 查看按引用类型，项目模块和文件分组的参考列表。
 
-如果您要查找的是纯文本，请使用按 在文件中查找(**Find in Path**)**⌃⇧F (Ctrl+Shift+F)**。
+如果您要查找的是纯文本，请使用按 在文件中查找\(**Find in Path**\)**⌃⇧F \(Ctrl+Shift+F\)**。
 
 有关更多详细信息，请参阅[查找用法](https://shaofan.gitbook.io/help/idea/finding-usages.html)。
 
@@ -193,7 +191,7 @@ IntelliJ IDEA提供了一套全面的自动代码重构功能，可在正确使�
 
 有关更多详细信息，请参阅[代码检查](https://shaofan.gitbook.io/help/idea/code-inspection.html)。
 
-### 代码样式和格式 {#dai-ma-yang-shi-he-ge-shi}
+### 代码风格和格式化 {#dai-ma-yang-shi-he-ge-shi}
 
 IntelliJ IDEA会在您编辑时自动应用您在[代码风格](https://shaofan.gitbook.io/help/idea/settings-code-style.html)设置中配置的代码风格，并且在大多数情况下，您无需显式调用重新格式代码操作。
 
@@ -268,13 +266,13 @@ IntelliJ IDEA会在您编辑时自动应用您在[代码风格](https://shaofan.
 
 | 动作 | 快捷键 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Toggle breakpoint | ⌘F8 |
-| Step into | F7 |
-| Smart step into | ⇧F7 |
-| Step over | F8 |
-| Step out | ⇧F8 |
-| Resume | F9 |
-| Evaluate expression | ⌥F8 |
+| 切换断点 | ⌘F8 \(Ctrl+F8\) |
+| 单步进入 | F7 |
+| 智能单步进入 | ⇧F7 \(Shift+F7\) |
+| 单步跳过 | F8 |
+| 单步跳出 | ⇧F8 \(Shift+F8\) |
+| 放开断点 | F9 |
+| 表达式计算 | ⌥F8 \(Alt+F8\) |
 
 如果你想在调试时“倒带”，你可以通过**Drop Frame**操作来完成。如果你错误地走得太远，这特别有用。这将不会恢复应用程序的全局状态，但至少会让您恢复到之前的堆栈帧。
 
