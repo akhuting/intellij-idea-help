@@ -171,21 +171,21 @@ IntelliJ IDEA提供了一套全面的自动代码重构功能，可在正确使�
 
 ### 引用查找 {#xun-zhao-yong-fa}
 
-**Find Usages** 可帮助您快速查找引用光标上符号的所有代码片段，无论符号是类，方法，字段，参数还是其他语句。只需按下 **⌥F7 \(Alt+F7\)** 获取按引用类型，模块和文件分组的参考列表。
+**Find Usages** 可帮助您快速查找引用了光标上符号的所有代码片段，无论符号是类，方法，字段，参数还是其他语句。只需按下 **⌥F7 \(Alt+F7\)** 查看按引用类型，项目模块和文件分组的参考列表。
 
-如果您要查找的是纯文本，请使用按 路径查找⌃⇧F。
+如果您要查找的是纯文本，请使用按 在文件中查找(**Find in Path**)**⌃⇧F (Ctrl+Shift+F)**。
 
 有关更多详细信息，请参阅[查找用法](https://shaofan.gitbook.io/help/idea/finding-usages.html)。
 
 ### 代码检查 {#jian-cha}
 
 {% hint style="info" %}
-编辑器允许您通过键盘快捷键快速浏览突出显示的问题。按此 F2 键转到下一个问题，然后 Shift+F2 转到上一个问题。
+编辑器允许您通过键盘快捷键快速浏览高亮显示的问题。按 F2 转到下一个问题，然后 Shift+F2 转到上一个问题。
 {% endhint %}
 
 代码检查\(**Inspections**\) 是内置的静态代码分析工具，可帮助您查找可能的错误， 无用代码，检测性能问题以及改进整体代码结构。
 
-大多数检查不仅可以告诉你问题出在哪里，还可以立即提供快速解决方案。按 **⌥⏎ \(Alt+Enter\)**选择一个快速修复。
+大多数检查不仅可以告诉你问题出在哪里，还可以立即提供快速解决方案。按 **⌥⏎ \(Alt+Enter\)**选择一个快速修复方案。
 
 如果要使用复杂而无法即使运行的检查对整个项目执行代码分析时。您可以通过以下两种方式之一完成此操作：从主菜单中选择 **Analyze \| Inspect Code**，或选择 **Analyze \| Run Inspection by Name** 以按名称运行检查。
 
@@ -195,7 +195,7 @@ IntelliJ IDEA提供了一套全面的自动代码重构功能，可在正确使�
 
 ### 代码样式和格式 {#dai-ma-yang-shi-he-ge-shi}
 
-IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中](https://shaofan.gitbook.io/help/idea/settings-code-style.html)配置的 [代码样式](https://shaofan.gitbook.io/help/idea/settings-code-style.html)，并且在大多数情况下，您无需 显式调用“ 重新格式代码”操作。
+IntelliJ IDEA会在您编辑时自动应用您在[代码风格](https://shaofan.gitbook.io/help/idea/settings-code-style.html)设置中配置的代码风格，并且在大多数情况下，您无需显式调用重新格式代码操作。
 
 有用的格式化快捷键：
 
@@ -205,13 +205,13 @@ IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中]
 | 自动缩进行 | ⌥⌘I \(Ctrl+Alt+I\) |
 | 优化Import | ⌥⌘O \(Ctrl+Alt+O\) |
 
-请注意，默认情况下，IntelliJ IDEA使用常规空格来缩进而不是制表符\(Tabs\)。如果您有包含大量缩进的文件，则可能需要通过在Java代码样式设置中启用 **Use tab characte**r 选项来优化其大小。
+请注意，默认情况下，IntelliJ IDEA使用常规空格来缩进而不是制表符\(Tabs\)。如果您有包含大量缩进的文件，则可能需要通过在Java代码风格设置中启用 **Use tab characte**r 选项来优化其大小。
 
-有关更多详细信息，请参阅重新 格式化源代码。
+有关更多详细信息，请参阅重新格式化源代码。
 
 ### 版本控制基础 {#ban-ben-kong-zhi-ji-chu}
 
-要从版本控制系统（VCS）签出项目，请在欢迎屏幕上或主菜单**VCS**中单击 **Checkout from Version Control**。
+要从版本控制系统（VCS）检出项目，请在欢迎屏幕上或主菜单**VCS**中单击 **Checkout from Version Control**。
 
 要在当前文件，目录或整个项目上快速执行VCS操作，请按下VCS操作弹窗 **⌃V \(Alt+\`\)**
 
@@ -219,7 +219,7 @@ IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中]
 
 配置完VCS设置后，您将看到**Version Control** 工具窗口。您可以在任何时候通过按**⌘9 \(Alt+9\)**切换到它。
 
-**Version Control** 工具窗口中的 **Local Changes** 选项卡显示了您所有的本地更改：包括 staged和 unstaged。
+**Version Control** 工具窗口中的 **Local Changes** 选项卡显示了您所有的本地更改：包括 **staged**和 **unstaged**。
 
 有用的VCS快捷键：
 
@@ -255,14 +255,14 @@ IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中]
 通过按住Alt时鼠标点击断点可以快速禁用任何断点。要更改断点详细信息（例如条件），请按⇧⌘F8 \(Ctrl+Shift+F8\)
 {% endhint %}
 
-一旦您通过从主菜单选择 **Run \| Edit Configurations** 创建 运行/调试配置，您即可开始运行和调试您的代码。
+一旦您从主菜单选择 **Run \| Edit Configurations** 创建 运行/调试配置，您即可运行和调试您的代码。
 
 | 动作 | 快捷键 |
 | --- | --- | --- |
 | 运行 \(Run\) | ⇧F10 \(Shift+F10\) |
 | 调试 \(Debug\) | ⇧F9 \(Shift+F9\) |
 
-在调试模式下，您可以按**⌥F8 \(Alt+F8\)**使用 表达式计算工具 \(**Evaluate expression tool**\) 计算任何表达式。该工具以与编辑器相同的方式提供代码补全，因此您将很容易输入任何表达式。
+在调试模式下，您可以按**⌥F8 \(Alt+F8\)**使用 表达式计算工具 \(**Evaluate expression tool**\) 计算任何表达式。该工具以代码编辑器相同的方式提供代码补全，因此您将很容易输入任何表达式。
 
 有时，您可能想要进入特定方法，但不是第一个将被调用的方法。在这种情况下，通过按下**⇧F7 \(Shift+F7\)**使用智能单步进入\(**Smart step into**\)选择特定方法。
 
@@ -286,7 +286,7 @@ IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中]
 
 ### 使用构建工具（Maven / Gradle） {#shi-yong-gou-jian-gong-ju-maven-gradle}
 
-一旦你导入/创建了你的Maven / Gradle项目，你可以直接在编辑器中编辑它 `pom.xml` 或`build.gradle`文件。对底层构建配置的任何更改最终都需要与IntelliJ IDEA中的项目模块同步。
+一旦你导入/创建了你的Maven / Gradle项目，你可以直接在编辑器中编辑 `pom.xml` 或`build.gradle`文件。对构建配置文件的任何更改最终都需要在IntelliJ IDEA中的项目模块里手动进行同步操作。
 
 如果您希望IDE立即同步更改，请执行以下操作：
 
@@ -302,12 +302,6 @@ IntelliJ IDEA会在 您编辑时自动应用您在“ [代码样式”设置中]
 ### 从Eclipse或NetBeans迁移 {#cong-eclipse-huo-netbeans-qian-yi}
 
 如果您正在考虑从Eclipse或NetBeans迁移到IntelliJ IDEA，请参阅Eclipse或 NetBeans的迁移指南 。
-
-### 下一步是什么 {#xia-yi-bu-shi-shi-mo}
-
-您可以观看IntelliJ IDEA概述的快速视频，了解IntelliJ IDEA在代码完成，检查，格式化等方面提供的内容。
-
-有关更详细的信息，我们强烈建议您阅读文档。另外，您可能会发现在Java SE下参考Java教程以及在Java EE上的教程也很有用。
 
 最后修改日期：2018年6月26日
 
