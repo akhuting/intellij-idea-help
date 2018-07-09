@@ -291,7 +291,7 @@ IntelliJ IDEA会在您编辑时自动应用您在[代码风格](https://shaofan.
 * 对于 `pom.xml` 启动 **Import Maven projects automatically** 选项路径为：**File \| Settings \| Build, Execution, Deployment \| Build Tools \| Maven \| Importing** \(Windows and Linux\) ， **IntelliJ IDEA \| Preferences \| Build, Execution, Deployment \| Build Tools \| Maven \| Importing** \(macOS\)。
 * 对于`build.gradle`，启用 **Use auto-import** 选项路径为：**Settings/Preferences \|** **Build, Execution, Deployment \| Build Tools \| Gradle**。
 
-对于手动同步，请使用Maven / Gradle工具窗口里工具栏上的相应操作： ![&#x5237;&#x65B0;](https://shaofan.gitbook.io/help/img/idea/2018.1/refresh.png)。
+对于手动同步，请使用Maven / Gradle工具窗口里工具栏上的相应操作： ![&#x5237;&#x65B0;](.gitbook/assets/refresh.png)。
 
 请注意，任何目标或任务都可以添加在运行配置\(**Run Configuration**\)之前运行。
 
